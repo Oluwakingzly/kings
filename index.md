@@ -1,37 +1,145 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			me doing better
+		</title>
 
-You can use the [editor on GitHub](https://github.com/Oluwakingzly/kings.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+		<style type="text/css">
+			header li{
+				display: inline-block;
+			}
+			header ul{
+				margin: 0px;
+				padding: 5px 0px 5px 30px;
+			}
+			header{
+				text-align: center;
+				font-size: 25px;
+				color: black;
+				background-color:;
+				border-style: ;
+				clear: both;
+			}
+			body{
+				width: 95%;
+				background-image: url("6.jpg");
+				
+				padding: 2px 2px;
+			}
+			nav{
+				float: left;
+				text-align: justify;
+				width: 30%;
+				//height: 500px;
+			}
+			article{
+				width: 35%;
+				text-align: left;
+				float: left;
+				//background-color: #CD6155;
+				//height: 500px;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+			}
+			aside{
+				width: 35%;
+				text-align: justify;
+				float: left;
+				//height: 500px;
+			}
 
-### Markdown
+			
+			footer{
+				padding: 25px 50px 25px 50px;
+				text-align: center;
+				font-size: 30px;
+				color: black;
+				//border-style: dashed;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+			}
+			h3, h2, h1,p{
+				color: black ;
+			}
+			date{
+				font-size: 30px;
+			}
+		</style>
+	</head>
+	<body>
+	<div>
+		<header>
+			<h3>Welcome To Hotels.ng</h3>
+				<ul>
+					<li>**About Us</li>
+					<li>**Gallery</li>
+					<li>**Classes</li>
+					<li>**Courses</li>
+				</ul>
+		</header>
 
-```markdown
-Syntax highlighted code block
+		<nav>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-# Header 1
-## Header 2
-### Header 3
+			<h2>Subscribe to Our Newsletter</h2>
+			<fieldset>
+				<legend>Subscribe</legend>
+				<label><input type="Textbox" name="Email" placeholder="Email Address"></label>
+				<label><input type="Submit" value="Subscribe"></label>
+			</fieldset>
 
-- Bulleted
-- List
+			<?php
+				echo "the time is".
+				date("h:i:sa");
+			?>
 
-1. Numbered
-2. List
+			
+			
+		</nav>
 
-**Bold** and _Italic_ and `Code` text
+		<article>
+			<figure>
+				<img src="programmer.jpg" alt="Programmer">
+			</figure>
 
-[Link](url) and ![Image](src)
-```
+			<fieldset>
+				<legend>Register Here</legend>
+				<label><input type="textbox" name="Surname" placeholder="Surname"></label>
+				<label><input type="textbox" name="Firstname" placeholder="Firstname"></label>
+				<label><input type="textbox" name="Email" placeholder="Email Address"></label>
+				<label><input type="textbox" name="Phone" placeholder="Phone Number"></label>
+				<label><input type="textbox" name="country" placeholder="Country"></label>
+				<label><input type="textbox" name="city" placeholder="City"></label>
+				<label><input type="Submit" value="Register"></label>
+			</fieldset>
+		</article>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+		<aside>
+			<h1>What Do We Do?</h1>
+			<p>Basically we teach programming<br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+			<h1>What Do We Hope to Achieve</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</aside>
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Oluwakingzly/kings.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+		<footer>
+			&copy; Hotels.ng &trade;
+		</footer>
+	</div>
+	</body>
+</html>
